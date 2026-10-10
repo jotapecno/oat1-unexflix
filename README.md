@@ -20,22 +20,16 @@ oat1-parte-b-api-unexflix/
 
 ## ▶️ Como executar
 
-Requer [Node.js](https://nodejs.org/) instalado. Como o repositório contém apenas o código, é preciso criar o `package.json` com ES Modules e instalar o Express.
+Requer [Node.js](https://nodejs.org/) instalado.
 
-**1. Dentro da pasta do projeto, criar o package.json com ES Modules:**
+**1. Instalar as dependências:**
 ```bash
-npm init -y
-npm pkg set type=module
+npm install
 ```
 
-**2. Instalar o Express:**
+**2. Iniciar o servidor:**
 ```bash
-npm install express
-```
-
-**3. Iniciar o servidor:**
-```bash
-node src/unexflix.js
+npm start
 ```
 
 O servidor sobe em `http://localhost:3000`.
