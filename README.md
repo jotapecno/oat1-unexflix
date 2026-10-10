@@ -13,6 +13,7 @@ Implementação da API RESTful de Catálogo de Filmes da **UnexFlix**, usando No
 ```
 oat1-parte-b-api-unexflix/
 ├── README.md
+├── package.json
 └── src/
     └── unexflix.js      # servidor Express com as 5 rotas do CRUD
 ```
