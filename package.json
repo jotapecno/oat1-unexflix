@@ -1,0 +1,12 @@
+{
+  "name": "unexflix-api",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/unexflix.js",
+  "scripts": {
+    "start": "node src/unexflix.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
